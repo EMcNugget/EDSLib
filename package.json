@@ -1,0 +1,26 @@
+{
+  "name": "eds-lib",
+  "version": "0.0.1",
+  "description": "Various algorithms, and utilities for all kinds of projects",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && tsup ./index.ts",
+    "type-check": "tsc",
+    "test": "vitest"
+  },
+  "keywords": [],
+  "author": "McNugget",
+  "license": "MIT",
+  "release": {
+    "branches": [
+      "master"
+    ]
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.2",
+    "semantic-release": "^21.1.1",
+    "tsup": "^7.2.0",
+    "typescript": "^5.2.2",
+    "vitest": "^0.34.3"
+  }
+}
