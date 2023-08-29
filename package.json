@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc && tsup ./index.ts",
-    "type-check": "tsc",
-    "test": "vitest"
+    "type-check": "tsc"
   },
   "keywords": [],
   "author": "McNugget",
@@ -16,11 +15,14 @@
       "master"
     ]
   },
+  "homepage": "https://github.com/EMcNugget/EDSLib#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EMcNugget/EDSLib.git"
+  },
   "devDependencies": {
     "@tsconfig/recommended": "^1.0.2",
-    "semantic-release": "^21.1.1",
     "tsup": "^7.2.0",
-    "typescript": "^5.2.2",
-    "vitest": "^0.34.3"
+    "typescript": "^5.2.2"
   }
 }
